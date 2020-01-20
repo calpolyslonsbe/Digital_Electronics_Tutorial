@@ -42,7 +42,7 @@ void Light_Sequence_2()
 // Turns all LEDS on as a test
 void Test_All()
 {
-  digitalWrite(REDLED1, HIGH);   
+  digitalWrite(REDLED1, HIGH);   1
   digitalWrite(BLUELED1, HIGH);
   digitalWrite(GREENLED1, HIGH);   
   digitalWrite(YELLOWLED1, HIGH);
@@ -51,19 +51,7 @@ void Test_All()
   digitalWrite(GREENLED2, HIGH);   
   digitalWrite(YELLOWLED2, HIGH);
 
-  delay(3000);
-
-  digitalWrite(REDLED1, LOW);   
-  digitalWrite(BLUELED1, LOW);
-  digitalWrite(GREENLED1, LOW);   
-  digitalWrite(YELLOWLED1, LOW);
-  digitalWrite(REDLED2, LOW);   
-  digitalWrite(BLUELED2, LOW);
-  digitalWrite(GREENLED2, LOW);   
-  digitalWrite(YELLOWLED2, HIGH);
-
-  delay(3000);
-
+  delay(300000);
 }
 
 // Display Characters in Binary
@@ -76,7 +64,7 @@ void ASCII_To_Binary()
   {
     curr_char = ascii[i]
 
-                digitalWrite(REDLED1, (curr_char >> 0) & 1);
+    digitalWrite(REDLED1, (curr_char >> 0) & 1);
     digitalWrite(BLUELED1, (curr_char >> 1) & 1);
     digitalWrite(GREENLED1, (curr_char >> 2) & 1);
     digitalWrite(YELLOWLED1, (curr_char >> 3) & 1);
@@ -85,6 +73,6 @@ void ASCII_To_Binary()
     digitalWrite(GREENLED2, (curr_char >> 6) & 1);
     digitalWrite(YELLOWLED2, (curr_char >> 7) & 1);
 
-    delay(10000);
+    delay(5000);
   }
 }
