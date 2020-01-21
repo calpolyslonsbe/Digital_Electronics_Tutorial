@@ -6,7 +6,15 @@
 */
 
 // Pin mapping for each LED
-// *** REMOVE AND START CODING HERE ***
+const int REDLED1 =     6;
+const int BLUELED1 =    7;
+const int GREENLED1 =   8;
+const int YELLOWLED1 =  9;
+const int REDLED2 =     10;
+const int BLUELED2 =    11;
+const int GREENLED2 =   12;
+const int YELLOWLED2 =  13;
+
 void setup()
 {
   // Put your setup code here, to run once:
@@ -42,7 +50,7 @@ void Light_Sequence_2()
 // Turns all LEDS on as a test
 void Test_All()
 {
-  digitalWrite(REDLED1, HIGH);   1
+  digitalWrite(REDLED1, HIGH);   
   digitalWrite(BLUELED1, HIGH);
   digitalWrite(GREENLED1, HIGH);   
   digitalWrite(YELLOWLED1, HIGH);
