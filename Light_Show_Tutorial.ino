@@ -1,7 +1,7 @@
 /*
     Title: NSBE Digital Electronics Tutorial
     Author: ENTER YOUR NAME HERE
-    Date: 01/22/2020
+    Date: ENTER DATE HERE
     Description: LED light sequence
 */
 
@@ -20,7 +20,14 @@ void setup()
   // Put your setup code here, to run once:
   // Setup each pin with the pin number and
   // whether it is input or output
-  // ****** REMOVE AND START CODING HERE ******
+  pinMode(LED1, OUTPUT);
+  pinMode(LED2, OUTPUT);
+  pinMode(LED3, OUTPUT);
+  pinMode(LED4, OUTPUT);
+  pinMode(LED5, OUTPUT);
+  pinMode(LED6, OUTPUT);
+  pinMode(LED7, OUTPUT);
+  pinMode(LED8, OUTPUT); 
 }
 
 void loop()
