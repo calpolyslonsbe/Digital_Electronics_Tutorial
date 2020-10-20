@@ -2,9 +2,9 @@
 
 This repository contains the shell code for the tutorial to be filled in by students (Light_Show_Tutorial.ino). This also contains the complete code and an image of the complete circuit in the event that students fall behind. There is also a PDF of the circuit breakdown from the presentation.
 
-## Steps: 
+## Code Setup Steps: 
 
-_1.) Click on “Clone or download” then click “Download ZIP”_
+_1.) Click on the green “Code” icon then click “Download ZIP”_
 
 _2.) Unzip the folder._
 
