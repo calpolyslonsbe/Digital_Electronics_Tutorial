@@ -42,9 +42,9 @@ void loop()
 // First Light Sequence
 void Light_Sequence_1()
 {
-    digitalWrite(LED8, HIGH);
+    digitalWrite(LED8, 1);
     delay(250);
-    digitalWrite(LED8, LOW);
+    digitalWrite(LED8, 0);
     delay(250);
 
     digitalWrite(LED7, HIGH);
@@ -52,9 +52,9 @@ void Light_Sequence_1()
     digitalWrite(LED7, LOW);
     delay(250);
 
-    digitalWrite(LED6, HIGH);
+    digitalWrite(LED6, 1);
     delay(250);
-    digitalWrite(LED6, LOW);
+    digitalWrite(LED6, 0);
     delay(250);
 
     digitalWrite(LED5, HIGH);
@@ -62,9 +62,9 @@ void Light_Sequence_1()
     digitalWrite(LED5, LOW);
     delay(250);
     
-    digitalWrite(LED4, HIGH);
+    digitalWrite(LED4, 1);
     delay(250);
-    digitalWrite(LED4, LOW);
+    digitalWrite(LED4, 0);
     delay(250);
 
     digitalWrite(LED3, HIGH);
@@ -72,9 +72,9 @@ void Light_Sequence_1()
     digitalWrite(LED3, LOW);
     delay(250);
 
-    digitalWrite(LED2, HIGH);
+    digitalWrite(LED2, 1);
     delay(250);
-    digitalWrite(LED2, LOW);
+    digitalWrite(LED2, 0);
     delay(250);
 
     digitalWrite(LED1, HIGH);
