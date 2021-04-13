@@ -33,7 +33,7 @@ void setup()
 void loop()
 {
   // put your main code here, to run repeatedly:
-  // We will start by calling the ASCII_To_Binary
+  // We will start by calling the Test_All
   // function to test the setup, then we will
   // call our Light_Sequence functions
   // ****** REMOVE AND START CODING HERE ******
@@ -74,19 +74,19 @@ void Light_Sequence_3()
 // Turns all LEDS on as a test
 void Test_All()
 {
-  digitalWrite(LED8, HIGH);   
-  digitalWrite(LED7, HIGH);
-  digitalWrite(LED6, HIGH);   
-  digitalWrite(LED5, HIGH);
-  digitalWrite(LED4, HIGH);   
-  digitalWrite(LED3, HIGH);
-  digitalWrite(LED2, HIGH);   
-  digitalWrite(LED1, HIGH);
+  digitalWrite(LED8, 1);   
+  digitalWrite(LED7, 1);
+  digitalWrite(LED6, 1);   
+  digitalWrite(LED5, 1);
+  digitalWrite(LED4, 1);   
+  digitalWrite(LED3, 1);
+  digitalWrite(LED2, 1);   
+  digitalWrite(LED1, 1);
 
   delay(300000);
 }
 
-// Display Characters in Binary
+// Display "NSBE" in Binary
 void ASCII_To_Binary()
 {
   char ascii[4]= {'N', 'S', 'B', 'E'};
