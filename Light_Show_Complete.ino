@@ -32,11 +32,18 @@ void setup()
 
 void loop() 
 {
-  // put your main code here, to run repeatedly:
-//  Test_All();
-  ASCII_To_Binary();
-//  Light_Sequence_1();
-//  Light_Sequence_2();
+  /* put your main code here, to run repeatedly
+     If you would like to run one of these sequences, simply remove the "//" below before the sequence name
+     Example:
+     // Light_Sequence_2();
+     ^^ Remove "//" 
+     Light_Sequence_2();
+  */
+  
+  //  Test_All();
+    ASCII_To_Binary();
+  //  Light_Sequence_1();
+  //  Light_Sequence_2();
 }
 
 // First Light Sequence
@@ -47,9 +54,9 @@ void Light_Sequence_1()
     digitalWrite(LED8, 0);
     delay(250);
 
-    digitalWrite(LED7, HIGH);
+    digitalWrite(LED7, 1);
     delay(250);
-    digitalWrite(LED7, LOW);
+    digitalWrite(LED7, 0);
     delay(250);
 
     digitalWrite(LED6, 1);
@@ -57,9 +64,9 @@ void Light_Sequence_1()
     digitalWrite(LED6, 0);
     delay(250);
 
-    digitalWrite(LED5, HIGH);
+    digitalWrite(LED5, 1);
     delay(250);
-    digitalWrite(LED5, LOW);
+    digitalWrite(LED5, 0);
     delay(250);
     
     digitalWrite(LED4, 1);
@@ -67,9 +74,9 @@ void Light_Sequence_1()
     digitalWrite(LED4, 0);
     delay(250);
 
-    digitalWrite(LED3, HIGH);
+    digitalWrite(LED3, 1);
     delay(250);
-    digitalWrite(LED3, LOW);
+    digitalWrite(LED3, 0);
     delay(250);
 
     digitalWrite(LED2, 1);
@@ -77,75 +84,75 @@ void Light_Sequence_1()
     digitalWrite(LED2, 0);
     delay(250);
 
-    digitalWrite(LED1, HIGH);
+    digitalWrite(LED1, 1);
     delay(250);
-    digitalWrite(LED1, LOW);
+    digitalWrite(LED1, 0);
     delay(250);
 }
 
 // Second Light Sequence
 void Light_Sequence_2()
 {
-    digitalWrite(LED8, HIGH);
+    digitalWrite(LED8, 1);
     delay(250);
 
-    digitalWrite(LED7, HIGH);
+    digitalWrite(LED7, 1);
     delay(250);
 
-    digitalWrite(LED6, HIGH);
+    digitalWrite(LED6, 1);
     delay(250);
 
-    digitalWrite(LED5, HIGH);
+    digitalWrite(LED5, 1);
     delay(250);
 
-    digitalWrite(LED4, HIGH);
+    digitalWrite(LED4, 1);
     delay(250);
 
-    digitalWrite(LED3, HIGH);
+    digitalWrite(LED3, 1);
     delay(250);
 
-    digitalWrite(LED2, HIGH);
+    digitalWrite(LED2, 1);
     delay(250);
 
-    digitalWrite(LED1, HIGH);
+    digitalWrite(LED1, 1);
     delay(250);
 
-    digitalWrite(LED8, LOW);
+    digitalWrite(LED8, 0);
     delay(250);
     
-    digitalWrite(LED7, LOW);
+    digitalWrite(LED7, 0);
     delay(250);
     
-    digitalWrite(LED6, LOW);
+    digitalWrite(LED6, 0);
     delay(250);
 
-    digitalWrite(LED5, LOW);
+    digitalWrite(LED5, 0);
     delay(250);
     
-    digitalWrite(LED4, LOW);
+    digitalWrite(LED4, 0);
     delay(250);
     
-    digitalWrite(LED3, LOW);
+    digitalWrite(LED3, 0);
     delay(250);
     
-    digitalWrite(LED2, LOW);
+    digitalWrite(LED2, 0);
     delay(250); 
 
-    digitalWrite(LED1, LOW);
+    digitalWrite(LED1, 0);
     delay(250);
 }
 
 // Turns all LEDS on as a test
 void Test_All()
 {
-  digitalWrite(LED8, HIGH);   
-  digitalWrite(LED7, HIGH);
-  digitalWrite(LED6, HIGH);   
-  digitalWrite(LED5, HIGH);
-  digitalWrite(LED4, HIGH);   
-  digitalWrite(LED3, HIGH);
-  digitalWrite(LED2, HIGH);   
-  digitalWrite(LED1, HIGH);
+  digitalWrite(LED8, 1);   
+  digitalWrite(LED7, 1);
+  digitalWrite(LED6, 1);   
+  digitalWrite(LED5, 1);
+  digitalWrite(LED4, 1);   
+  digitalWrite(LED3, 1);
+  digitalWrite(LED2, 1);   
+  digitalWrite(LED1, 1);
 
   delay(300000);
 }
